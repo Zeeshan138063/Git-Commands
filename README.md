@@ -18,6 +18,7 @@ _A list of my commonly used Git commands_
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
+| `GIT_SSL_NO_VERIFY=true git clone ssh://git@github.com/[username]/[repository-name].git` | clone a Git repository without ssl|
 
 ### Basic Snapshotting
 
