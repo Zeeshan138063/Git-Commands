@@ -71,3 +71,15 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+
+### Revert the changes
+
+| Command | Description |
+| ------- | ----------- |
+| `git reset --hard <commit-hash-id>` | Revert the pushed commits |
+then 
+| `git push  --force` | Push forcefully to remote |
+ 
+
+ 
